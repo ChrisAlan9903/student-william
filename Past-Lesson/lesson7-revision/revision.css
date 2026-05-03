@@ -1,0 +1,38 @@
+.container {
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.child-container {
+  border: 1px solid red;
+  padding: 4px;
+
+  flex: 1;
+}
+
+.child-2 {
+  flex: 2;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.child-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sample {
+  margin: 50px;
+  border: 1px solid red;
+  padding: 4px;
+
+  display: flex;
+  justify-content: flex-end;
+}

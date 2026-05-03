@@ -1,0 +1,73 @@
+3 Parts of Web dev
+
+1. Frontend - appearance, app
+2. Backend - system, data processor 
+3. Database - store our data
+
+3 Parts of Frontend
+a. Structure of code - HTML (bone)
+b. Styling - CSS (muscles, cells)
+c. Logic/Interactivity - Javascript (JS) (brain) 
+
+- class, id (similar, but id more general use case. class more for styling)
+
+HTML - English
+HTML Elements  - Words
+HTML Syntax - Grammar 
+
+
+me    
+you 
+they
+home
+car
+
+<!-- List of commonly used HTML elements -->
+<h1></h1>
+<p></p>
+<button></button>
+<input></input>
+<video></video>
+<img></img>
+<body></body>
+<div></div>
+<nav></nav>
+<section></section>
+<footer></footer>
+<a></a>
+
+<ol></ol>
+<ul></ul>
+<li></li>
+
+
+<!-- Attributes -->
+<button id="" class="" type="button" onclick="" ></button>
+<img id="" class="" src="" ></img>
+
+Priority for CSS Selector:
+1. Id - highest
+2. Class - second
+3. html element - last
+
+CSS Syntax
+
+.btn {
+    
+    background-color: red ;
+    color: green ;
+} 
+
+#btn {
+
+    background-color: red ;
+    color: green ;
+} 
+h1 {
+
+    background-color: red ;
+    color: green ;
+} 
+
+margin
+border

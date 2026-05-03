@@ -1,0 +1,22 @@
+How we are going to do things
+
+1. Learn the Basic
+2. Projects
+3. Combining Projects
+
+What we are going to learn: Web Development
+
+Languange we going to use: 
+1. Programming Language: Javascript (JS)
+2. Markup Language: Hyper Text Markup Language (HMTL)
+3. Styling : Cascading Style Sheets (CSS) 
+
+Things that you are ENCOURAGED to do: 
+1. Ask 
+2. If lesson too fast, ask me to slow down
+3. If lesson too slow, ask me speed up
+4. Try out things, don't just guess.
+5. Type. or Code. dont just read.
+6. Google or AI (Chatgpt), just make sure to understand the answer.  
+
+
