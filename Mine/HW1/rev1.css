@@ -1,0 +1,42 @@
+.a{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.b{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.c{
+    border: 1px blue solid;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 12px;
+}
+
+
+.d{
+    border: 1px blue solid;
+}
+
+.e{
+    border: 1px blue solid;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 12px;
+}

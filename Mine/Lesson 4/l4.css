@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+}
+
+.no1 {
+    background-color: blueviolet;
+}
+
+.no2 {
+    background-color: rgb(10, 255, 255);
+}
+
+.no3 {
+    background-color: #ffd700;
+}
+
+.no4 {
+    background-color: rgb(240, 7, 182);
+}
+
+.no5 {
+    background-color: burlywood;
+}

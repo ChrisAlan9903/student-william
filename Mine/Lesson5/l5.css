@@ -1,0 +1,212 @@
+.parent {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.child {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.fosterparents {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.adult {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.biologicalparents {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.teen {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.divorcedparents {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: flex-start;
+  align-items: top;
+  gap: 10px;
+}
+
+.nooo {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.singleparent {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 10px;
+}
+
+.ahh {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.deadparents {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: flex-end;
+  align-items: top;
+  gap: 10px;
+}
+
+.idk {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.grandma {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.yo {
+  height: 15px;
+  padding: 4px;
+  margin-top: 52px;
+  border: 2px solid black;
+}
+
+.american {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gun {
+  height: 15px;
+  padding: 4px;
+  margin-top: 52px;
+  border: 2px solid black;
+}
+
+.homeless {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.a {
+  height: 15px;
+  padding: 4px;
+  margin-top: 52px;
+  border: 2px solid black;
+}
+
+.hi {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.hii {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hiii {
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.one {
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.two {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
+
+.thre {
+  height: 15px;
+  padding: 4px;
+  border: 2px solid black;
+}
