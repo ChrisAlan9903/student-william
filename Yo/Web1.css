@@ -1,0 +1,86 @@
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  height: 79.86px;
+  width: 28;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: bold;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.divport {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 260.42px;
+  height: 26px;
+  gap: 32px;
+  font-size: 14px;
+  color: #2563eb;
+}
+
+.resume {
+  width: 93.73px;
+  height: 36px;
+  font-size: 14px;
+  color: white;
+  background-color: #0054d6;
+  border-radius: 4px;
+  border-color: #0054d6;
+}
+
+.linkc {
+  text-decoration: none;
+  color: grey;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 186.5px 24px 186.5px 24px;
+}
+
+.mainpoint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 726.56px;
+  height: 446px;
+}
+
+.a {
+  color: #0054d6;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  width: 726.565px;
+  height: 24px;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 726.56px;
+}
+
+.b {
+  text-align: center;
+  margin: 0px;
+  font-weight: 800;
+  font-size: 72px;
+  font-style: bold;
+}
+
+.blue {
+  color: #0054d6;
+}
