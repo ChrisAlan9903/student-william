@@ -146,7 +146,6 @@
 .notsofatcontainerTWO {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   width: 573.5px;
   height: 573.5px;
 }
@@ -154,13 +153,9 @@
 .inthenotsofat {
   display: flex;
   flex-direction: column;
-  width: 573.5px;
-  height: 442px;
-  border: solid 2px black;
 }
 
 .abtme {
-  border: solid 2px black;
   font-style: bold;
   font-weight: 700;
   font-size: 36px;
@@ -176,6 +171,188 @@
 }
 
 .sumbox {
-  border: solid 2px black;
   height: 96px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 800px;
+  gap: 50px;
+}
+
+.notall {
+  display: flex;
+  flex-direction: column;
+}
+
+.sp {
+  display: flex;
+  font-weight: 700;
+  size: 36px;
+}
+
+.colect {
+  display: flex;
+  font-weight: 400;
+  size: 16px;
+}
+
+.notalltwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c1 {
+  border: 1px;
+  border-radius: 8px;
+  width: 382px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc1 {
+  height: 227.5px;
+}
+
+.cc1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cc11 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  height: 227.5px;
+  padding: 32px;
+}
+
+.cc11webapp {
+  font-weight: 700;
+  size: 12px;
+  color: #0054d6;
+}
+
+.mini {
+  font-weight: 700;
+  size: 20px;
+  color: black;
+}
+
+.productiveapp {
+  font-weight: 400;
+  size: 14px;
+  color: #596061;
+}
+
+.case1 {
+  font-weight: 600;
+  size: 14px;
+}
+
+.c2 {
+  width: 382px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc2 {
+  height: 227.5px;
+}
+
+.cc2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cc22 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  height: 227.5px;
+  padding: 32px;
+}
+
+.cc22brand {
+  font-weight: 700;
+  size: 12px;
+  color: #0054d6;
+}
+
+.edit {
+  font-weight: 700;
+  size: 20px;
+  color: black;
+}
+
+.brand {
+  font-weight: 400;
+  size: 14px;
+  color: #596061;
+}
+
+.case2 {
+  font-weight: 600;
+  size: 14px;
+}
+
+.c3 {
+  width: 382px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc3 {
+  height: 227.5px;
+}
+
+.cc3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cc33 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  height: 227.5px;
+  padding: 32px;
+}
+
+.cc33a {
+  font-weight: 700;
+  size: 12px;
+  color: #0054d6;
+}
+
+.cc33b {
+  font-weight: 700;
+  size: 20px;
+  color: black;
+}
+
+.cc33c {
+  font-weight: 400;
+  size: 14px;
+  color: #596061;
+}
+
+.case3 {
+  font-weight: 600;
+  size: 14px;
+}
+
+.projects {
+  background-color: #f9f9f9;
 }
