@@ -356,3 +356,73 @@
 .projects {
   background-color: #f9f9f9;
 }
+
+.last {
+  background-color: #f2f4f4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: fill;
+  height: 476px;
+}
+
+.lastbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 768px;
+  height: 284px;
+  gap: 32px;
+}
+
+.contacta {
+  margin: 0px;
+  display: flex;
+  height: 48px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.lh1 {
+  width: fill;
+  height: 56px;
+}
+
+.theh1 {
+  text-align: center;
+  width: 746.64px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.link {
+  color: blue;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.gmail {
+  display: flex;
+  padding-top: 16px;
+  flex-direction: column;
+  height: 116px;
+  gap: 24px;
+}
+
+.underthere {
+  display: flex;
+  justify-content: space-around;
+}
+
+.href1 {
+  color: #596061;
+}
+
+.href1 {
+  color: #596061;
+}
+.href1 {
+  color: #596061;
+}
