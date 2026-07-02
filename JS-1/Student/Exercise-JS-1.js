@@ -18,3 +18,28 @@
 // 18.Create a variable called school and assign it the string "ABC School". Print it.
 // 19.Create a variable called phoneNumber and assign it the string "0123456789". Print it.
 // 20.Create a variable called totalMarks and assign it the number 100. Print it.
+
+let age = 18;
+let name = "Willam";
+let price = 25.5;
+let city = "Kuala Lumpur";
+let year = 2026;
+let subject = "JavaScript";
+let temperature = 30;
+let country = "Malaysia";
+let score = 95;
+let message = "Hello World";
+let height = 170;
+let food = "Nasi Lemak";
+let quantity = 10;
+let color = "blue";
+let salary = 3000;
+let email = "lawbill210@gmail.com";
+let weight = 55.8;
+let school = "ABC School";
+let phoneNumber = "0123456789";
+let totalMarks = 100;
+
+console.log(
+  `Age = ${age} \n Name = ${name} \n Price = ${price} \n City = ${city} \n Year = ${year} \n Subject = ${subject} \n Temperature = ${temperature} \n Country = ${country} \n Score = ${score} \n Message = ${message}\n Height = ${height} \n Food = ${food} \n Quantity = ${quantity} \n Color = ${color} \n Salary = ${salary} \n Email = ${email} \n Weight = ${weight} \n School = ${school} \n Phone Number = ${phoneNumber}\n Total Marks = ${totalMarks}`,
+);
