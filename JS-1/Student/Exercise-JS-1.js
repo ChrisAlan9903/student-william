@@ -39,7 +39,14 @@ let weight = 55.8;
 let school = "ABC School";
 let phoneNumber = "0123456789";
 let totalMarks = 100;
+let number = "0123456789";
 
 console.log(
   `Age = ${age} \n Name = ${name} \n Price = ${price} \n City = ${city} \n Year = ${year} \n Subject = ${subject} \n Temperature = ${temperature} \n Country = ${country} \n Score = ${score} \n Message = ${message}\n Height = ${height} \n Food = ${food} \n Quantity = ${quantity} \n Color = ${color} \n Salary = ${salary} \n Email = ${email} \n Weight = ${weight} \n School = ${school} \n Phone Number = ${phoneNumber}\n Total Marks = ${totalMarks}`,
 );
+
+console.log((Age = "age"));
+console.log("Age = " + age);
+console.log(phoneNumber + number);
+
+console.log(phoneNumber + totalMarks + totalMarks);
