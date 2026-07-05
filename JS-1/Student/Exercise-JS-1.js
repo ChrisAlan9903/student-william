@@ -43,3 +43,16 @@ let totalMarks = 100;
 console.log(
   `Age = ${age} \n Name = ${name} \n Price = ${price} \n City = ${city} \n Year = ${year} \n Subject = ${subject} \n Temperature = ${temperature} \n Country = ${country} \n Score = ${score} \n Message = ${message}\n Height = ${height} \n Food = ${food} \n Quantity = ${quantity} \n Color = ${color} \n Salary = ${salary} \n Email = ${email} \n Weight = ${weight} \n School = ${school} \n Phone Number = ${phoneNumber}\n Total Marks = ${totalMarks}`,
 );
+
+// feedback notes
+let name2 = "Chris";
+
+console.log("My name is " + name2);
+console.log("My name is " + name2);
+console.log(`My name is ${name2}`);
+
+console.log("Age  = " + age + "\n" + "Name = " + name + "\n");
+
+`Age = ${age}, Name = ${name}`;
+
+console.log(phoneNumber + (totalMarks + totalMarks));
