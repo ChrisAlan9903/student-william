@@ -49,7 +49,7 @@ if (height >= 150) {
   console.log("You can enter");
 }
 let passwordLength = 8;
-if ((passLength = 8)) {
+if (passLength == 8) {
   console.log("Password Length is correct");
 }
 let total = 25;
