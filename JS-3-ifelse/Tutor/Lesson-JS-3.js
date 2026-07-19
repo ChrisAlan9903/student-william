@@ -48,3 +48,22 @@ let userInputPassword = "1234heheh";
 if (password === userInputPassword) {
   console.log("Login success ! Redirecting to home page...");
 }
+
+// Lesson 3.2: If block and else block
+
+// Syntax and keyword
+
+if (condition) {
+  // code to run when condition is true
+} else {
+  // run when none of the above condition is true
+}
+
+// Example:
+if (1 < 2) {
+  console.log("Condition is true");
+} else {
+  console.log("Condition is anything other true");
+}
+
+console.log("This is outside of the If statement");
