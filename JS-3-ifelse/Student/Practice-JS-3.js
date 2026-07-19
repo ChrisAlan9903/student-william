@@ -27,3 +27,42 @@
 
 // 10. Create two variables called price and quantity with the values 10 and 4.
 // Use an if block to print "The total price is 40" when price * quantity is equal to 40.
+
+let age = 18;
+if (age === 18) {
+  console.log("You are 18");
+}
+let score = 80;
+if (score > 70) {
+  console.log("Good Score");
+}
+let temperature = 35;
+if (temperature > 30) {
+  console.log("The weather is hot");
+}
+let money = 50;
+if (money >= 50) {
+  console.log("You have enough money");
+}
+let height = 160;
+if (height >= 150) {
+  console.log("You can enter");
+}
+let passwordLength = 8;
+if ((passLength = 8)) {
+  console.log("Password Length is correct");
+}
+let total = 25;
+if (total > 20) {
+  console.log("Total is more than 20");
+}
+let num1 = 5;
+let num2 = 3;
+if (num1 + num2 == 8) {
+  console.log("The sum is 8");
+}
+let price = 10;
+let quantity = 4;
+if (price * quantity == 40) {
+  console.log("The total price is 40");
+}
