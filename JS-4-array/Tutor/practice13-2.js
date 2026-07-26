@@ -2,6 +2,7 @@
 // Print every fruit using a for loop.
 
 let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits);
 
 // Question 2
 // Print every number using a for loop.
