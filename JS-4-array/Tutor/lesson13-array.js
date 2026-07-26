@@ -3,6 +3,7 @@
 // b. How to access the data ✅
 // c. How to modify the data ✅
 // d. How to add/remove data ✅
+// e. Extra: array methods
 
 // Array is a data that can store multiple data (group)
 
@@ -77,6 +78,16 @@ console.log(removed);
 console.log(fruits.pop());
 
 // Extra note: use .shift() and .unshift() to add or remove from the beginning of array
+
+// Extra note 2: Array method(function) and array properties(variable)
+
+// Example of array properties:
+let fruits = ["Apple", "Banana", "Orange"];
+
+let lastItemIndex = fruits.length - 1;
+
+// console.log("number of item in array: ", fruits.length);
+console.log(fruits[fruits.length - 1]);
 
 // Practice with loop
 // Given an array of names, print out each item in the array using for loop
