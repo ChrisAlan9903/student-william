@@ -1,8 +1,8 @@
 // Lesson 13: Array
-// a. What it is, how to create
-// b. How to access the data
-// c. How to modify the data
-// d. How to add/remove data
+// a. What it is, how to create ✅
+// b. How to access the data ✅
+// c. How to modify the data ✅
+// d. How to add/remove data ✅
 
 // Array is a data that can store multiple data (group)
 
@@ -46,10 +46,10 @@ let arrays = [
 
 // Lesson 13.b: Accessing data in array
 let fruits = ["Apple", "Banana", "Orange"];
-console.log(fruits[0]);
-console.log(fruits[1]);
-console.log(fruits[2]);
-console.log(fruits[3]);
+console.log("1st fruit: ", fruits[0]);
+console.log("2nd fruit: ", fruits[1]);
+console.log("3rd fruit: ", fruits[2]);
+console.log("4th fruit: ", fruits[3]);
 
 let fruit = fruits[2];
 console.log(fruit);
@@ -69,13 +69,14 @@ fruits.push("Watermelon");
 console.log(fruits);
 
 // REMOVE
+let fruits = ["Apple", "Banana", "Orange"];
 fruits.pop();
 
 console.log(fruits);
 console.log(removed);
 console.log(fruits.pop());
 
-// Extra note: use .shift() and unshift() to add or remove from the beginning of array
+// Extra note: use .shift() and .unshift() to add or remove from the beginning of array
 
 // Practice with loop
 // Given an array of names, print out each item in the array using for loop
