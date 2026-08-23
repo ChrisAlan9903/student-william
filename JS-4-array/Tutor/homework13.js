@@ -3,23 +3,30 @@
 // Question 1
 // Create an array of 5 animal names.
 // Print the array.
+let fiveanimals = ["Monkey", "Elephant", "Giraffe", "Dog", "Cat"];
+console.log(fiveanimals);
 
 // Question 2
 // Create an array of 5 numbers.
 // Print the first and last number.
+let fivenumbers = [1, 2, 3, 4, 5];
+console.log(fivenumbers);
 
 // Question 3
 // Print every item inside this array.
 
 let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits[0] + fruits[1] + fruits[2]);
 
 // Question 4
 // Change "Dog" into "Cat".
 
 let animals = ["Dog", "Bird", "Fish"];
+animals[0] = "Cat";
+console.log(animals);
 
 // Question 5
-// Add a new color into the array.
+// Add a new color into the array.S
 
 let colors = ["Red", "Blue"];
 
@@ -58,7 +65,7 @@ let products = ["Laptop", "Phone", "Tablet"];
 // Question 12
 // Print only even numbers.
 
-let numbers = [1, 2, 3, 4, 5, 6];
+let Nnumbers = [1, 2, 3, 4, 5, 6];
 
 // HARD LEVEL
 
@@ -76,12 +83,12 @@ let scores = [80, 90, 70, 100];
 // Count how many students passed.
 // Passing mark is 60.
 
-let scores = [50, 80, 40, 90, 70];
+let Sscores = [50, 80, 40, 90, 70];
 
 // Question 16
 // Find the smallest number.
 
-let numbers = [50, 20, 80, 10, 40];
+let NNnumbers = [50, 20, 80, 10, 40];
 
 // Question 17
 // Create a shopping cart.
@@ -97,7 +104,7 @@ let numbers = [50, 20, 80, 10, 40];
 // Question 19
 // Find how many times "Apple" appears.
 
-let fruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
+let Ffruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
 
 // Question 20
 // Create a student score system.
