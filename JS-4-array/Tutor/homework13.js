@@ -10,7 +10,7 @@ console.log(fiveanimals);
 // Create an array of 5 numbers.
 // Print the first and last number.
 let fivenumbers = [1, 2, 3, 4, 5];
-console.log(fivenumbers);
+console.log(fivenumbers); // ❌
 
 // Question 3
 // Print every item inside this array.
