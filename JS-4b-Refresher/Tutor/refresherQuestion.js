@@ -67,8 +67,10 @@ console.log(firstname + " " + lastName);
 
 let isLoggedIn = true;
 
-if ((isLoggedIn = true)) {
+if (isLoggedIn == true) {
   console.log("Welcome Back");
+} else {
+  console.log("No");
 }
 // ========================================
 // Question 5 - Simple If Else
@@ -223,7 +225,7 @@ console.log(colours);
 //
 // 4
 let foods = ["Rice", "Noodles", "Burger", "Pizza"];
-console.log(fruits.length + 1);
+console.log(foods.length);
 // ========================================
 // Question 13 - If Else with Array Data
 // ========================================
