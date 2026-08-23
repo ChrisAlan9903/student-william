@@ -15,6 +15,8 @@ Topics:
 // Create a variable called studentName.
 // Store your name inside it.
 // Then print the variable using console.log().
+let studentName = "william";
+console.log(studentName);
 
 // ========================================
 // Question 2 - Number
@@ -27,6 +29,10 @@ Topics:
 // that stores price * quantity.
 //
 // Print totalPrice.
+let price = 15;
+let quantity = 3;
+let totalPrice = price * quantity;
+console.log(totalPrice);
 
 // ========================================
 // Question 3 - String
@@ -41,6 +47,9 @@ Topics:
 // Ali Tan
 //
 // using the two variables.
+let firstname = "Ali";
+let lastName = "Tan";
+console.log(firstname + " " + lastName);
 
 // ========================================
 // Question 4 - Boolean
@@ -56,6 +65,11 @@ Topics:
 //
 // "Welcome back!"
 
+let isLoggedIn = true;
+
+if ((isLoggedIn = true)) {
+  console.log("Welcome Back");
+}
 // ========================================
 // Question 5 - Simple If Else
 // ========================================
@@ -72,6 +86,13 @@ Topics:
 //
 // "You are under 18"
 
+let age = 17;
+if (age >= 18) {
+  console.log("You are an adult");
+} else {
+  console.log("You are under 18");
+}
+
 // ========================================
 // Question 6 - If Else with Number
 // ========================================
@@ -87,6 +108,12 @@ Topics:
 // Otherwise print:
 //
 // "Fail"
+let score = 65;
+if (score >= 50) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
 
 // ========================================
 // Question 7 - Positive or Negative
@@ -103,6 +130,13 @@ Topics:
 // Otherwise print:
 //
 // "Negative"
+
+let number = -10;
+if (number >= 0) {
+  console.log("Postive");
+} else {
+  console.log("Negative");
+}
 
 // ========================================
 // Question 8 - Even or Odd
@@ -123,6 +157,13 @@ Topics:
 // or
 //
 // "Odd"
+let nNumber = 7;
+let evenOrOdd = nNumber % 2;
+if (evenOrOdd == 1) {
+  console.log("Odd");
+} else {
+  console.log("Even");
+}
 
 // ========================================
 // Question 9 - Create an Array
@@ -134,6 +175,8 @@ Topics:
 // "Orange"
 //
 // Print the whole array.
+let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits);
 
 // ========================================
 // Question 10 - Access Array Elements
@@ -147,6 +190,8 @@ Topics:
 // 2. "Rabbit"
 //
 // by accessing their positions in the array.
+let animals = ["Cat", "Dog", "Rabbit", "Bird"];
+console.log(animals[0] + " " + animals[2]);
 
 // ========================================
 // Question 11 - Modify an Array
@@ -162,7 +207,9 @@ Topics:
 // Expected:
 //
 // ["Red", "Yellow", "Green"]
-
+let colours = ["Red", "Blue", "Green"];
+colours[1] = "yellow";
+console.log(colours);
 // ========================================
 // Question 12 - Array Length
 // ========================================
@@ -175,7 +222,8 @@ Topics:
 // Expected:
 //
 // 4
-
+let foods = ["Rice", "Noodles", "Burger", "Pizza"];
+console.log(fruits.length + 1);
 // ========================================
 // Question 13 - If Else with Array Data
 // ========================================
@@ -193,7 +241,13 @@ Topics:
 // Otherwise print:
 //
 // "Affordable"
-
+let prices = [10, 25, 8];
+let priceNoS = prices[1];
+if (priceNoS > 20) {
+  console.log("Expensive");
+} else {
+  console.log("Affordable");
+}
 // ========================================
 // Question 14 - Find the Bigger Number
 // ========================================
@@ -208,7 +262,12 @@ Topics:
 // Expected:
 //
 // 35
-
+let aNumbers = [20, 35];
+if (aNumbers[0] > aNumbers[1]) {
+  console.log(aNumbers[0]);
+} else {
+  console.log(aNumbers[1]);
+}
 // ========================================
 // Question 15 - Mini Challenge
 // ========================================
@@ -233,3 +292,15 @@ Topics:
 //
 // BONUS:
 // Also print the student's average score.
+
+let scores = [70, 45, 80];
+let totalScore = scores[0] + scores[1] + scores[2];
+let averageScore = totalScore / 3;
+
+if (averageScore >= 50) {
+  console.log("Student Passed");
+} else {
+  console.log("Student Failed");
+}
+
+console.log(averageScore);
