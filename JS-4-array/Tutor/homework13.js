@@ -37,7 +37,7 @@ console.log(colors);
 // Remove the last item from the array.
 
 let foods = ["Rice", "Chicken", "Soup"];
-foods.pop(foods.length - 1);
+foods.pop(foods.length - 1); // ❌
 console.log(foods);
 
 // MEDIUM LEVEL
@@ -50,7 +50,7 @@ for (let index = 1; index < 4; index++) {
   console.log(students[index - 1]);
 }
 
-// Question 8
+// Question 8 ⚠️
 // Use a loop to calculate total marks.
 
 let marks = [80, 70, 90];
@@ -58,7 +58,7 @@ for (let index = 1; index < 4; index++) {
   console.log(marks[index - 1]);
 }
 
-// Question 9
+// Question 9 🔍
 // Count how many numbers are greater than 50.
 
 let numbers = [20, 80, 40, 90];
@@ -107,13 +107,13 @@ for (index = 1; index < nNumbers.length + 1; index++) {
 let prices = [100, 200, 300];
 console.log(prices[0] + prices[1] + prices[2]);
 
-// Question 14
+// Question 14 ❌
 // Find the average score.
 
 let scores = [80, 90, 70, 100];
 console.log((score[0] + score[1] + score[2] + scoer[3]) / 2);
 
-// Question 15
+// Question 15 ❌
 // Count how many students passed.
 // Passing mark is 60.
 
@@ -124,7 +124,7 @@ for (index = 1; index < sScores.length + 1; index++) {
   }
 }
 
-// Question 16
+// Question 16 ⚠️
 // Find the smallest number.
 
 let nnNumbers = [50, 20, 80, 10, 40];
@@ -144,7 +144,7 @@ shoppingCart.push("Tape", "Lighter", "Bottle");
 shoppingCart.pop();
 console.log(shoppingCart);
 
-// Question 18
+// Question 18 (skip first for now)
 // Ask the user for 5 numbers.
 // Store them inside an array.
 // Print all numbers.
@@ -156,9 +156,12 @@ let times = 0;
 let fFruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
 for (index = 1; index < fFruits.length; index++) {
   if (fFruits[index - 1] == "Apple") {
-    let times = +1;
+    // let times = +1;
+    let times = times + 1;
   }
 }
+
+console.log("times:", times);
 // Question 20
 // Create a student score system.
 // Store 5 scores.
