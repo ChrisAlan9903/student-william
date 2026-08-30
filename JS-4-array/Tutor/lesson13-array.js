@@ -72,6 +72,7 @@ console.log(fruits);
 // REMOVE
 let fruits = ["Apple", "Banana", "Orange"];
 fruits.pop();
+console.log(fruits);
 
 console.log(fruits);
 console.log(removed);

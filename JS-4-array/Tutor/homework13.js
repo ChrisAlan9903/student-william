@@ -29,11 +29,16 @@ console.log(animals);
 // Add a new color into the array.S
 
 let colors = ["Red", "Blue"];
+colors.push("Black");
+
+console.log(colors);
 
 // Question 6
 // Remove the last item from the array.
 
 let foods = ["Rice", "Chicken", "Soup"];
+foods.pop(foods.length - 1);
+console.log(foods);
 
 // MEDIUM LEVEL
 
@@ -41,31 +46,58 @@ let foods = ["Rice", "Chicken", "Soup"];
 // Use a loop to print all students.
 
 let students = ["Ali", "John", "Sarah"];
+for (let index = 1; index < 4; index++) {
+  console.log(students[index - 1]);
+}
 
 // Question 8
 // Use a loop to calculate total marks.
 
 let marks = [80, 70, 90];
+for (let index = 1; index < 4; index++) {
+  console.log(marks[index - 1]);
+}
 
 // Question 9
 // Count how many numbers are greater than 50.
 
 let numbers = [20, 80, 40, 90];
+let total = [];
+for (let index = 1; index < 5; index++) {
+  if (numbers[index - 1] > 50) {
+    total[index - 1] = 1;
+  } else {
+    total[index - 1] = 0;
+  }
+}
+
+console.log(total[0] + total[1] + total[2] + total[3]);
 
 // Question 10
 // Add a new subject and print all subjects.
 
 let subjects = ["Math", "English"];
+subjects.push("Physic");
+
+console.log(subjects);
 
 // Question 11
 // Remove the last product from the list.
 
 let products = ["Laptop", "Phone", "Tablet"];
+products.pop(products.length);
+
+console.log(products);
 
 // Question 12
 // Print only even numbers.
 
-let Nnumbers = [1, 2, 3, 4, 5, 6];
+let nNumbers = [1, 2, 3, 4, 5, 6];
+for (index = 1; index < nNumbers.length + 1; index++) {
+  if (nNumbers[index - 1] % 2 == 0) {
+    console.log(nNumbers[index - 1]);
+  }
+}
 
 // HARD LEVEL
 
@@ -73,39 +105,60 @@ let Nnumbers = [1, 2, 3, 4, 5, 6];
 // Find the total price.
 
 let prices = [100, 200, 300];
+console.log(prices[0] + prices[1] + prices[2]);
 
 // Question 14
 // Find the average score.
 
 let scores = [80, 90, 70, 100];
+console.log((score[0] + score[1] + score[2] + scoer[3]) / 2);
 
 // Question 15
 // Count how many students passed.
 // Passing mark is 60.
 
-let Sscores = [50, 80, 40, 90, 70];
+let sScores = [50, 80, 40, 90, 70];
+for (index = 1; index < sScores.length + 1; index++) {
+  if (sScores[index - 1] >= 60) {
+    console.log("Pass");
+  }
+}
 
 // Question 16
 // Find the smallest number.
 
-let NNnumbers = [50, 20, 80, 10, 40];
+let nnNumbers = [50, 20, 80, 10, 40];
+for (index = 1; index <= nnNumbers.length; index++) {
+  if (nnNumbers[index - 1] < nnNumbers[index]) {
+    console.log(nnNumbers[index - 1]);
+  }
+} //not done
 
 // Question 17
 // Create a shopping cart.
 // Add 3 items.
 // Remove 1 item.
 // Print the final cart.
+let shoppingCart = [];
+shoppingCart.push("Tape", "Lighter", "Bottle");
+shoppingCart.pop();
+console.log(shoppingCart);
 
 // Question 18
 // Ask the user for 5 numbers.
 // Store them inside an array.
 // Print all numbers.
+wat;
 
 // Question 19
 // Find how many times "Apple" appears.
-
-let Ffruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
-
+let times = 0;
+let fFruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
+for (index = 1; index < fFruits.length; index++) {
+  if (fFruits[index - 1] == "Apple") {
+    let times = +1;
+  }
+}
 // Question 20
 // Create a student score system.
 // Store 5 scores.
