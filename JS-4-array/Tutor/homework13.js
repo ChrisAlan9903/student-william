@@ -154,10 +154,9 @@ wat;
 // Find how many times "Apple" appears.
 let times = 0;
 let fFruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
-for (index = 1; index < fFruits.length; index++) {
-  if (fFruits[index - 1] == "Apple") {
-    // let times = +1;
-    let times = times + 1;
+for (index = 0; index < fFruits.length; index++) {
+  if (fFruits[index] == "Apple") {
+    times = times + 1;
   }
 }
 
@@ -170,3 +169,19 @@ console.log("times:", times);
 // - total score
 // - average score
 // - number of students who passed
+
+let score = [50, 80, 75, 29];
+let tTotal = 0;
+for (let all of score) {
+  tTotal += all;
+}
+console.log("Total Score : " + tTotal);
+console.log("Average Score : " + tTotal / score.length);
+
+let numPass = 0;
+for (let value of score) {
+  if (value > 40) {
+    numPass = numPass + 1;
+  }
+}
+console.log("Total Passes : " + numPass);
